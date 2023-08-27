@@ -1,13 +1,11 @@
 import React from "react";
-import { Header } from "./componentes/Header";
-import { ProductosLista } from "./componentes/Productos/index";
-//import './App.css';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <ProductosLista />
+      <h1>Tienda Deportiva</h1>
+      <h3>Prueba de que la pagina sirve.</h3>
     </div>
   );
 }
