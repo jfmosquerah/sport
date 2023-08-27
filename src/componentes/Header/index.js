@@ -12,6 +12,14 @@ export const Header = () => {
                     <img src={Nike} alt=""/>
                 </div>
             </a>
+            <ul>
+                <li>
+                    <a href="#">INICIO</a>
+                </li>
+                <li>
+                    <a href="#">PRODUCTOS</a>
+                </li>
+            </ul>
         </header>
     )
 }
