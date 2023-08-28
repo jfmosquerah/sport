@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import imagen  from  '../../images/Nike.jpg'
 
 const Footer = () => {
     return (
@@ -7,9 +7,8 @@ const Footer = () => {
             <footer className='text-white py-4 bg-dark'>
                 <div className='container'>
                     <nav className='row'>
-                        <Link to='/' className='col-12 col-md-3 d-flex align-items-center justify-content-center'>
-                            <img src='./titulo-IMAGENUSADA.png' className='mx-2' height='60' alt='Logo' />
-                        </Link>
+                            <img src={imagen} className='mx-2' height='60' alt='Logo' />
+                        
                         <ul className='col-12 col-md-3 list-unstyled'>
                             <li className='font-weight-bold mb-2'>Ropa deportiva.</li>
                             <li className='text-center'>En esta tienda encontrará la mejor ropa deportiva.</li>
