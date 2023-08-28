@@ -1,8 +1,13 @@
 import { render, screen } from '@testing-library/react';
-import index from './index';
+import index from './index.js';
 
-test('renders learn react link', () => {
+test('Verificar link de inicio', () => {
   render(<index />);
   const linkElement = screen.getByText(/INICIO/i);
   expect(linkElement).toBeInTheDocument();
 });
+test('Verificar link de productos', () => {
+    render(<index />);
+    const linkElement = screen.getByText(/PRODUCTOS/i);
+    expect(linkElement).toBeInTheDocument();
+  });

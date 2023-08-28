@@ -14,10 +14,10 @@ export const Header = () => {
             </a>
             <ul>
                 <li>
-                    <a href="#">INICIO</a>
+                    <a href="INICIO">INICIO</a>
                 </li>
                 <li>
-                    <a href="#">PRODUCTOS</a>
+                    <a href="PRODUCTOS">PRODUCTOS</a>
                 </li>
             </ul>
             <div className="cart">
