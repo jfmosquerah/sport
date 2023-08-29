@@ -90,7 +90,12 @@ header .cart span{
   color: #08a05c;
 }
 .productos {
-  padding: 0%;
+  padding: 5rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 3rem 1rem;
+  box-sizing: border-box;
 }
 
 

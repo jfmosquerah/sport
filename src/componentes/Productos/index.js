@@ -6,8 +6,9 @@ export const ProductosLista = () => {
       <>
       <h1 className="title">PRODUCTOS</h1>
         <div className="productos">
+          <div className="productos">
           <a href="#">
-          <div className="producto">
+          <div className="producto__img">
             <img src={IMG} alt=""/>
           </div>
           </a>
@@ -22,6 +23,7 @@ export const ProductosLista = () => {
             </button>
               <a href="#" className="btn">Vista</a>
           </div>
+        </div>
         </div>
       </>
     )
