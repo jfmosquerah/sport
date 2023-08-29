@@ -73,7 +73,6 @@ header .cart span{
   right: -1.5rem;
   width: 2.5rem;
   height: 2.5rem;
-  border: 1px solid red;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -83,4 +82,12 @@ header .cart span{
   font-size: 1.5rem;
   font-weight: 700;
   background-color: crimson;
+}
+
+
+/*--------------MEDIA -------------------*/
+@media :only screen and (max-width: 600px){
+  header ul{
+    display: none;
+  }
 }
