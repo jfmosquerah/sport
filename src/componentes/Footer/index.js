@@ -1,7 +1,7 @@
 import React from 'react';
 import imagen  from  '../../images/Nike.jpg'
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <div>
             <footer className='text-white py-4 bg-dark'>

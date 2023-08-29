@@ -1,9 +1,10 @@
 import React from "react";
 import { Header } from "./componentes/Header";
 import { ProductosLista } from "./componentes/Productos/index";
+import { Footer } from "./componentes/Footer";
 import 'boxicons'
 
-import Footer from "./components/foter/Foter";
+
 function App() {
   return (
     <div className="App">
