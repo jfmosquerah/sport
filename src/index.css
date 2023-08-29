@@ -78,4 +78,9 @@ header .cart span{
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  padding: 0rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: crimson;
 }
