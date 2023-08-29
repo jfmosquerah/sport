@@ -17,7 +17,7 @@ code {
   width: 100%;
   min-height: 100vh;
   margin: 0 auto;
-  box-sizing: 0 2px 6px #08a05ca4;
+  box-shadow: 0 5px 6px #08a05ca4;
   padding: 0 15px;
   box-sizing: border-box;
 }
@@ -84,6 +84,16 @@ header .cart span{
   background-color: crimson;
 }
 /*--------------- COMPONENTE PRODUCTOS ------ */
+.title{
+  font-size: 2rem;
+  padding: 10rem 0 0 0;
+  color: #08a05c;
+}
+.productos {
+  padding: 0%;
+}
+
+
 
 
 /*--------------MEDIA -------------------*/
