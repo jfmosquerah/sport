@@ -1,23 +1,28 @@
-
-import React, { useState, useEffect } from 'react';
-import './Product.css';
-import { productService } from '../../Service/productService';
+import React from 'react'
+import IMG from "../../images/img01.jpg"
 
 export const ProductosLista = () => {
-    const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    productService.getAll().then(response => setProducts(response.data));
-  }, []);
     return (
-        <ul>
-        {products.map(product => (
-          <div>
-            <img src={product.image} alt={product.title} width="100" />
-            <li key={product.id}>{product.title}</li>
-            <span>{product.price}</span>
+      <>
+      <h1 className="title">PRODUCTOS</h1>
+        <div className="productos">
+          <a href="#">
+          <div className="producto">
+            <img src={IMG} alt=""/>
           </div>
-        ))}
-      </ul>
+          </a>
+          <div className="producto__footer">
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className="price">$320</p>
+          </div>
+          <div className="buttom">
+            <button className="btn">
+              Añadir al carrito
+            </button>
+              <a href="#" className="btn">Vista</a>
+          </div>
+        </div>
+      </>
     )
 }
