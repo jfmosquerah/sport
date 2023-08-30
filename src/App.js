@@ -1,8 +1,8 @@
 import React from "react";
 import { Header } from "./componentes/Header";
 import { ProductosLista } from "./componentes/Productos/index";
-import { Api1 } from "./componentes/Api1/App1";
 import { Footer } from "./componentes/Footer";
+import  Maps from "./componentes/Mapas/Mapa";
 import 'boxicons'
 
 
@@ -11,7 +11,8 @@ function App() {
     <div className="App">
       <Header />
       <ProductosLista />
-      <Api1 />
+      <button className="btn btn-danger">GoogleMaps</button>
+      <Maps />
       <Footer/>
     </div>
   );
