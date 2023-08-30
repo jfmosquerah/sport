@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 notas para la tutora
 instalar estor paquetes
 npm i boxicons react-router-dom
+
+https://github.com/jfmosquerah/sport
